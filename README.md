@@ -9,7 +9,6 @@ members, assigning tasks, and tracking progress with Admin/Member access rules.
 python3 app.py
 ```
 
-Open `http://127.0.0.1:8000`.
 
 ## Features
 
