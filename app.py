@@ -9,7 +9,7 @@ Run:
     python3 app.py
 
 Then open:
-    http://127.0.0.1:8000
+    http://0.0.0.1:8000
 """
 
 from __future__ import annotations
@@ -32,7 +32,7 @@ from urllib.parse import urlparse
 
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "team_task_manager.db"
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 PORT = int(os.getenv("PORT", "8000"))
 SESSION_TTL_HOURS = 12
 TOKEN_BYTES = 32
